@@ -2,7 +2,7 @@
 name: redux
 on: push
 jobs:
-  github-actions: null
+  github-actions:
   runs-on: ubuntu-latest
   steps:
     - name: checkout
