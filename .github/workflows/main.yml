@@ -1,0 +1,9 @@
+---
+name: redux
+on: push
+jobs:
+  github-actions: null
+  runs-on: ubuntu-latest
+  steps:
+    - name: checkout
+run: echo "checkout from repo"
