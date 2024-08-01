@@ -1,8 +1,8 @@
 name: redux
 on: push
 jobs:
-  github-actions:
-  runs-on: ubuntu-latest
-  steps:
-    - name: checkout
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
 run: echo "checkout from repo"
